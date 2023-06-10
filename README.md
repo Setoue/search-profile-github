@@ -8,6 +8,7 @@
 #
 <h3>📺Vídeo do projeto</h3>
 
+https://github.com/Setoue/search-profile-github/assets/79421646/56f51cdf-d34a-4160-b579-6250c216d349
 
 #
 
