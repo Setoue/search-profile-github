@@ -1,0 +1,60 @@
+.user {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 34, 136);
+    border-radius: 10px;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.user img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(127, 47, 129);
+}
+
+.location {
+    display: flex;
+    color: rgb(127, 47, 129);
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.location svg {
+    background-color: rgb(87, 34, 136);
+    /* o fill é responsável por trocar a cor do svg */
+    fill: rgb(127, 47, 129);
+    border: 2px solid rgb(127, 47, 129);
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.location span {
+    color: silver;
+    font-weight: bold;
+}
+
+.numbers {
+    background-color: rgb(127, 47, 129);
+    border-radius: 5px;
+    padding: 5px 0rem;
+}
+
+.others {
+    display: flex;
+}
+
+.others div {
+    flex-direction: column;
+    padding: 0 1rem;
+
+}
+
+.others div:first-child {
+    border-right: 1px solid rgb(127, 47, 129);
+}
