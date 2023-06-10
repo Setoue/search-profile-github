@@ -16,7 +16,7 @@ const Home = () => {
 
         const res = await fetch(`https://api.github.com/users/${userName}`, {
             headers: {
-                'Authorization': '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', //token de acesso do github
+                'Authorization': 'SEU_TOKEN', //token de acesso do github
             },
         })
         const data = await res.json()
